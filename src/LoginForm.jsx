@@ -1,4 +1,4 @@
 export default function MyLogin(){
- return (<h1>peido cu bosta mijo</h1>)
+ return (<h1>Olá.</h1>)
 
 }

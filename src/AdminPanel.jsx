@@ -1,3 +1,3 @@
 export default function MyAdmin(){
- return (<h1>Sexo</h1>)
+ return (<h1>Hello</h1>)
 }
