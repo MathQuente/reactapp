@@ -16,12 +16,13 @@ function handleUserSearch(){
   .then(response => response.json())
   .then(data => setUser(data))
 }
+
   return (
     <>
       <h2>
-        Procurar usuario
+        Procurar usuário
       </h2>
-      <input type="text" value={name} onChange={(e) => setName(e.target.value) } placeholder='Digite o nome do usuário'/>
+      <input type="text" value={name} onChange={(e) => setName(e.target.value) } placeholder='Digite o nome de usuário'/>
       <button onClick={handleUserSearch}>Enviar</button>
       <h1>{user?.login}</h1>
       <img
