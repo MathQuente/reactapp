@@ -97,3 +97,15 @@ button:focus-visible {
   padding: 1rem;
   color: yellow;
 }
+
+li{
+  list-style: none;
+}
+
+tr{
+  background-color: blue;
+}
+
+.table{
+ margin-top: 20px;
+}

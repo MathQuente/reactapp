@@ -1,5 +1,8 @@
 import { useState } from 'react';
 
+// TODO: Apagar historico de jogadas para ponto que escolher
+// TODO: Delete history of moves to the point than pickup
+
 function Square({value, onSquareClick}) {
     
 
